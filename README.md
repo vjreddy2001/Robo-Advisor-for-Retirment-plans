@@ -116,7 +116,7 @@ Leave the error handling configuration for the `RecommendPortfolio` bot with the
 Here I have tested the Robo Advisor. To build the bot, click on the `Build` button in the upper right hand corner. Once the build is complete, test it in the chatbot window. 
 You should see a conversation like the one below.
 
-![Robo Advisor test](RobAdvisor_video.wmv)
+![Robo Advisor test](RobAdvisor_video.gif)
 
 #### Enhance the Robo Advisor with an Amazon Lambda Function
 
@@ -148,30 +148,6 @@ After successfully testing your code, open the Amazon Lex Console and navigate t
 
 ![Robo Advisor test with Lambda](Images/bot-test-with-lambda.gif)
 
-### Submission
-
-You should create a brand new repository in GitHub and upload the following files to your repo.
-
-* A python script with your final lambda function.
-
-* From the Amazon Lex Console, export your bot, intent, and slot using `Amazon Lex` as the target platform, and upload the ZIP files to your repo.
-
-* Create a short video or animated GIF showing a demo of your Robo Advisor in action from the test window. Upload the video or animated GIF file to your repo.
-
-Once you have uploaded all the files into the repo, post a link to your homework's repository in BootCamp Spot.
-
-### Hints
-
-* Make sure your intent and slot names are named correctly in your Lambda code.  The names in Lex should match the names in Lambda exactly:
-
-![Lex_Names1](Images/Lex_names1.png)
-![Lex_Names2](Images/Lex_names2.png)
-
-* You may have to refresh the Lex intent page after creating the custom slot and the lambda function in order to see them in the options.
-
-* If you are using a Mac, you can create a screen-recording using the built-in QuickTime player. Follow [this link](https://support.apple.com/en-us/HT208721#quicktime) to learn more.
-
-* If you are using Windows 10, you can create a screen-recording using the built-in Xbox Game Bar. Follow [this link](https://beta.support.xbox.com/help/friends-social-activity/share-socialize/record-game-clips-game-bar-windows-10) to learn more.
 
 ---
 
