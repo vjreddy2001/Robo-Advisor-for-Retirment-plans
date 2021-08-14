@@ -25,7 +25,7 @@ The following main tasks were accomplished:
 ### Files
 
 * [lambda_function.py](RoboAdvisor.py)
-* [correct_dialog.txt](Test_files/correct_dialog.txt)
+* [correct_dialog.txt](/Test_files/correct_dialog.txt)
 * [age_error.txt](Test files/age_error.txt)
 * [incorrect_amount_error.txt](Test files/incorrect_amount_error.txt)
 * [negative_age_error.txt](Test files/negative_age_error.txt)
