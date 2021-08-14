@@ -80,7 +80,8 @@ Created this custom slot as follows:
 
 To format the response cards for the intent, click on the gear icon next to the intent as seen in the image below:
 
-![gear_icon](Images/gear_icon.png)
+![gear_icon](https://user-images.githubusercontent.com/83671629/129461642-44ce2500-1790-4810-99c8-55e6b0778476.png)
+s/gear_icon.png)
 
 Next, input the following data in the resulting display window:
 
@@ -93,12 +94,10 @@ Configure the response cards for the `riskLevel` slot as is shown bellow:
 | Card 1                              | Card 2                              |
 | ----------------------------------- | ----------------------------------- |
 | <img src="card1.png" width="250" height="250">  | <img src="card2.png" width="250" height="250">
-  |
 
 | Card 3                              | Card 4                              |
 | ----------------------------------- | ----------------------------------- |
-| ![card3](https://user-images.githubusercontent.com/83671629/129461278-71158351-34f7-4e47-936b-8c2404aa899a.png)
-  | ![Card 4 sample](Images/card4.png)  |
+| <img src="card3.png" width="250" height="250">  | <img src="card4.png" width="250" height="250">  |
 
 **Note:** You can find free icons from [this website](https://www.iconfinder.com/) 
 
@@ -109,7 +108,8 @@ Move to the *Confirmation Prompt* section, and set the following messages:
 
 Leave the error handling configuration for the `RecommendPortfolio` bot with the default values.
 
-![Error handling configuration](Images/error_handling.png)
+![Error handling configuration]<img width="1084" alt="error_handling" src="https://user-images.githubusercontent.com/83671629/129461659-0f90f5b5-192c-4104-a230-dc6ddf952d28.png">
+
 
 #### Build and Test the Robo Advisor
 
