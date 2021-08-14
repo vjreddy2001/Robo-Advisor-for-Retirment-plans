@@ -36,9 +36,10 @@ The following main tasks were accomplished:
 
 #### Initial Robo Advisor Configuration
 
-In this section, you will create the `RoboAdvisor` bot and add an intent with its corresponding slots.
+Here I have created the `RoboAdvisor` bot and add an intent with its corresponding slots.
 
-Sign in into your AWS Management Console and [create a new custom Amazon Lex bot](https://console.aws.amazon.com/lex/home). Use the following parameters:
+Signed into the AWS Management Console and [create a new custom Amazon Lex bot](https://console.aws.amazon.com/lex/home). 
+Used the following parameters:
 
 * **Bot name:** RoboAdvisor
 * **Output voice**: Salli
@@ -46,9 +47,9 @@ Sign in into your AWS Management Console and [create a new custom Amazon Lex bot
 * **Sentiment analysis:** No
 * **COPPA**: No
 * **Advanced options**: No
-* *Leave default values for all other options.*
+* *Left default values for all other options.*
 
-Create the `RecommendPortfolio` intent, and configure some sample utterances as follows (you can add more utterances as you wish):
+Created the `RecommendPortfolio` intent, and configure some sample utterances as follows:
 
 * I want to save money for my retirement
 * I'm ​`{age}​` and I would like to invest for my retirement
@@ -58,7 +59,8 @@ Create the `RecommendPortfolio` intent, and configure some sample utterances as 
 * I want to invest for my retirement
 * I would like to invest for my retirement
 
-This bot will use four slots, three using built-in types and one custom slot named `riskLevel`. Define the three initial slots as follows:
+This bot will use four slots, three using built-in types and one custom slot named `riskLevel`. 
+I Defined the three initial slots as follows:
 
 
 | Name             | Slot Type            | Prompt                                                                    |
@@ -67,12 +69,13 @@ This bot will use four slots, three using built-in types and one custom slot nam
 | age              | AMAZON.NUMBER        | How old are you?                                                          |
 | investmentAmount | AMAZON.NUMBER        | How much do you want to invest?                                           |
 
-The `riskLevel` custom slot will be used to retrieve the risk level the user is willing to take on the investment portfolio. Create this custom slot as follows:
+The `riskLevel` custom slot will be used to retrieve the risk level the user is willing to take on the investment portfolio. 
+Created this custom slot as follows:
 
 * Select the `+` icon next to 'Slot Types' in the 'Editor' on the left side of the screen.
 * Choose `create custom slot` from the resulting display window.
 * For **Slot type name**, type: riskLevel
-* Select the radial dial button next to **Restrict to Slot values and synonyms**, then fill in the appropriate values and synonums. *Example*: Low, Minimal; High, Maximum.
+* Select the radial dial button next to **Restrict to Slot values and synonyms**, then filled in the appropriate values and synonums. *Example*: Low, Minimal; High, Maximum.
 * Click `Add slot to intent` when finished.
 
 To format the response cards for the intent, click on the gear icon next to the intent as seen in the image below:
@@ -89,13 +92,16 @@ Configure the response cards for the `riskLevel` slot as is shown bellow:
 
 | Card 1                              | Card 2                              |
 | ----------------------------------- | ----------------------------------- |
-| ![Card 1 sample](Images/card1.png)  | ![Card 2 sample](Images/card2.png)  |
+| ![card1](https://user-images.githubusercontent.com/83671629/129461269-497e96af-ac7f-4032-95cf-fffdd62c9fec.png)
+  | ![card2](https://user-images.githubusercontent.com/83671629/129461275-48d6f8a0-5879-4bae-9c4a-aacf0b18c1cb.png)
+  |
 
 | Card 3                              | Card 4                              |
 | ----------------------------------- | ----------------------------------- |
-| ![Card 3 sample](Images/card3.png)  | ![Card 4 sample](Images/card4.png)  |
+| ![card3](https://user-images.githubusercontent.com/83671629/129461278-71158351-34f7-4e47-936b-8c2404aa899a.png)
+  | ![Card 4 sample](Images/card4.png)  |
 
-**Note:** You can download free icons from [this website](https://www.iconfinder.com/) or you can use the icons provided in the [`Icons` directory](Icons/).
+**Note:** You can find free icons from [this website](https://www.iconfinder.com/) 
 
 Move to the *Confirmation Prompt* section, and set the following messages:
 
@@ -108,9 +114,10 @@ Leave the error handling configuration for the `RecommendPortfolio` bot with the
 
 #### Build and Test the Robo Advisor
 
-In this section, you will test your Robo Advisor. To build your bot, click on the `Build` button in the upper right hand corner. Once the build is complete, test it in the chatbot window. You should see a conversation like the one below.
+Here I have tested the Robo Advisor. To build the bot, click on the `Build` button in the upper right hand corner. Once the build is complete, test it in the chatbot window. 
+You should see a conversation like the one below.
 
-![Robo Advisor test](Images/bot-test-no-lambda.gif)
+![Robo Advisor test](RobAdvisor_video.wmv)
 
 #### Enhance the Robo Advisor with an Amazon Lambda Function
 
