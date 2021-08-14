@@ -140,13 +140,12 @@ Once the intent is fulfilled, the bot should response with an investment recomme
 * **high:** "20% bonds (AGG), 80% equities (SPY)"
 * **very high:** "0% bonds (AGG), 100% equities (SPY)"
 
-Be creative while coding your solution, you can have all the code on the `recommend_portfolio()` function, or you can split the functionality across different functions, put your Python coding skills in action!
 
-Once you finish coding your lambda function, test it using the [sample test cases](Test_Cases/) provided for this homework.
+Once I finished coding lambda function, I tested it using the Test_files.
 
-After successfully testing your code, open the Amazon Lex Console and navigate to the `RecommendPortfolio` bot configuration, integrate your new lambda function by selecting it in the _Lambda initialization and validation_ and _Fulfillment_ sections. Build your bot, and you should have a conversation as follows.
+After successfully testing the code, open the Amazon Lex Console and navigate to the `RecommendPortfolio` bot configuration, integrate the new lambda function by selecting it in the _Lambda initialization and validation_ and _Fulfillment_ sections. Build the bot, and the conversation should be as follows.
 
-![Robo Advisor test with Lambda](Images/bot-test-with-lambda.gif)
+![Robo Advisor test](RobAdvisor_video.gif)
 
 
 ---
