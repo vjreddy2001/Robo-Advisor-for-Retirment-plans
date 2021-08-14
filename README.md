@@ -92,8 +92,7 @@ Configure the response cards for the `riskLevel` slot as is shown bellow:
 
 | Card 1                              | Card 2                              |
 | ----------------------------------- | ----------------------------------- |
-| ![card1](https://user-images.githubusercontent.com/83671629/129461269-497e96af-ac7f-4032-95cf-fffdd62c9fec.png)
-  | ![card2](https://user-images.githubusercontent.com/83671629/129461275-48d6f8a0-5879-4bae-9c4a-aacf0b18c1cb.png)
+| <img src="card1.png" width="250" height="250">  | <img src="card2.png" width="250" height="250">
   |
 
 | Card 3                              | Card 4                              |
